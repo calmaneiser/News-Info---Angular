@@ -1,0 +1,56 @@
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.example-card {
+  margin-top: 5px;
+}
+
+.example-header-image {
+  //   background-image: url("https://www.pngfind.com/pngs/m/610-6104451_image-placeholder-png-user-profile-placeholder-image-png.png");
+  background: #3f51b5;
+  margin-right: 10px;
+  background-size: cover;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.img-article {
+  height: 500px;
+}
+
+.action-buttons {
+  text-align: center;
+}
+
+.example-container {
+  width: 100%;
+  height: auto;
+  border: 1px solid rgba(111, 111, 111, 0.5);
+}
+
+.example-sidenav {
+  padding: 20px;
+}
+
+.srouce-name {
+  margin-left: 5px;
+}
+
+.list-item:hover {
+  cursor: pointer;
+  background-color: #3f51b5;
+  border-radius: 3px;
+  color: white;
+  .example-header-image {
+    background: white;
+  }
+}
+
+.example-card-avatar {
+  background-image: url("https://www.pngfind.com/pngs/m/610-6104451_image-placeholder-png-user-profile-placeholder-image-png.png");
+  background-size: contain;
+  background-position: center;
+}
